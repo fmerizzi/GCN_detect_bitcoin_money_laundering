@@ -11,3 +11,9 @@ __fig.1 example of unclassified connected group__
 ![unclassified connecet group](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/connected%20group.png)
 
 this project is based on the paper "Anti-Money Laundering in Bitcoin: Experimenting with Graph Convolutional Networks for Financial Forensics" by Mark Weber, Giacomo Domeniconi, Jie Chen, Daniel Karl I. Weidele, Claudio Bellei, Tom Robinson, Charles E. Leiserson
+
+### In a possible follow up its planned to explore the follwing concepts:
+
+1. Produce a new dataset containing connected graphs, obtained by searching the dataset 
+2. Apply some GAT techniques to classify the obtained connected graphs, with the general idea to find "washing machine" addresses used for money laundering 
+
