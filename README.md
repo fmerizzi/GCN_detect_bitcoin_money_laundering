@@ -40,8 +40,11 @@ In this project we have the following goals:
 4. Attempt the making of an attention layer in the GCN (GAT) and compare the results with the original paper. 
 
 __fig.1 example of unclassified connected group__
+
 red -> illicit 
+
 green -> licit 
+
 gray -> unclassified 
 
 ![unclassified connecet group](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/connected%20group.png)
