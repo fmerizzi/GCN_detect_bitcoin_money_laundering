@@ -30,6 +30,9 @@ __the GAT architecture__
 The GAT architecture is a novel design, but very primitive. Its based on 2 attention layers and plenty of regularization, as the tendency of exploding gradient was the biggest issue. 
 For both GCN and GAT the limited disposal of high performance GPU prevented me to achieve a perfect training and they could both be highly improved, in both terms of tuning and architecture change. 
 
+__the validation set__
+All the training is done with the same splits as the original paper. However some improvement may be found is not using the validation set. This is because with temporal split we are not training on a meaningful part of the network, which is the validation, therfore we have a temporal vacuum we need to address. Once again, I decided not to implement this because otherwise I would have lost the coherence. 
+
 -----------------------------------------------------------------------------------
 
 In this project we have the following goals:
