@@ -38,6 +38,9 @@ For both GCN and GAT the limited disposal of high performance GPU prevented me t
 __the validation set__
 All the training is done with the same splits as the original paper. However some improvement may be found is not using the validation set. This is because with temporal split we are not training on a meaningful part of the network, which is the validation, therfore we have a temporal vacuum we need to address. Once again, I decided not to implement this because otherwise I would have lost the coherence. 
 
+__GCN and random forest voting system__
+Random forest has a clear edge as a classifier. The problem is addressed in the paper, and a solution is proposed that consists in having a neural network with as a last layer some kind of voting system rather than the usual softmax layer. However, 3 years later, no architecture of this kind exixts. However the improvements in GCN architectures have apparently solved the gap, as the results of my experiments have finally reached random forest performances. 
+
 -----------------------------------------------------------------------------------
 
 In this project we have the following goals:
