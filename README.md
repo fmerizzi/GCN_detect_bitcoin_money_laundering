@@ -1,5 +1,10 @@
 # GCN_detect_bitcoin_money_laundering
 This project attempts the use new techniques in the field of AML applied to the bitcoin blockchain.
+## file list 
+1. 1_main_transaction_tracker.ipynb, main reimplementation of the paper. LogReg, RandomForest, DenseNetworks + the implementation and test of the tracker algorithm. 
+2. 1_main_transaction_tracker_distributedTrain.ipynb, same exact code but using a distributed set rather than a time_step based split. 
+3. 2_GCN_elliptic.ipynb, implementation of a GCN network in keras and subsequent evaluation
+4. 3_GAT_elliptic.ipynb implementation of a GAT network in keras and subsequent evaluation
 
 ## Discussion points 
 
