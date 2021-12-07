@@ -75,3 +75,12 @@ this project is based on the paper "Anti-Money Laundering in Bitcoin: Experiment
 ![final performance overview](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/final_metrics_classifier.png)
 
 
+### Extended Version Results 
+The paper claim that the Random Forest Approach is inherently better than the Log. Regression Approach. I decided to test this claim by testing a big set of alternative classfiers to check whether Random Forest really outperforms all the others. The results, attached later, confirmed the paper claims. 
+
+![final performance table](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/extended_table.png)
+![final performance overview](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/comparison_extended.png)
+
+
+
+
