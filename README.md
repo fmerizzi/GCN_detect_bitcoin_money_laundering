@@ -40,6 +40,7 @@ All the training is done with the same splits as the original paper. However som
 
 __GCN and random forest voting system__
 Random forest has a clear edge as a classifier. The problem is addressed in the paper, and a solution is proposed that consists in having a neural network with as a last layer some kind of voting system rather than the usual softmax layer. However, 3 years later, no architecture of this kind exixts. However the improvements in GCN architectures have apparently solved the gap, as the results of my experiments have finally reached random forest performances. 
+But on another note, is Random Forest really THAT GOOD? lets test this claim by running any other popular classifier we can find. 
 
 -----------------------------------------------------------------------------------
 
