@@ -65,7 +65,7 @@ this project is based on the paper "Anti-Money Laundering in Bitcoin: Experiment
 2. Apply some GAT techniques to classify the obtained connected graphs, with the general idea to find "washing machine" addresses used for money laundering 
 
 ### Final Results 
-![final performance table](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/classification_table.png)
+![final performance table](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/classification_table2.png)
 ![final performance overview](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/final_metrics_classifier.png)
 
 
