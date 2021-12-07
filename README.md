@@ -5,6 +5,8 @@ This project attempts the use new techniques in the field of AML applied to the 
 2. 1_main_transaction_tracker_distributedTrain.ipynb, same exact code but using a distributed set rather than a time_step based split. 
 3. 2_GCN_elliptic.ipynb, implementation of a GCN network in keras and subsequent evaluation
 4. 3_GAT_elliptic.ipynb implementation of a GAT network in keras and subsequent evaluation
+5.  1_transaction_tracker_extended.ipynb, extended classification with multiple classifiers to test the Random Forest is the best hypotesis
+
 
 ## Discussion points 
 
