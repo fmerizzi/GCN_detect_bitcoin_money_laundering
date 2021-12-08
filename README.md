@@ -53,7 +53,7 @@ In this project we have the following goals:
 3. Work on some new state of the art convoluted networks and compare it to the original 
 4. Attempt the making of an attention layer in the GCN (GAT) and compare the results with the original paper. 
 
-__fig.1 example of unclassified connected group__
+__example of unclassified connected group__
 
 red -> illicit 
 
@@ -81,6 +81,15 @@ The paper claim that the Random Forest Approach is inherently better than the Lo
 ![final performance table](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/extended_table2.png)
 ![final performance overview](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/comparison_extended.png)
 
+### Classified/Unclassified connected graphs
+
+__connected group before classification__
+
+![unclassfieid](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/unclassified2.png)
+
+__connected group after classification__
+
+![classified](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/classified2.png)
 
 
 
