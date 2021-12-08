@@ -82,6 +82,7 @@ The paper claim that the Random Forest Approach is inherently better than the Lo
 ![final performance overview](https://github.com/fmerizzi/GCN_detect_bitcoin_money_laundering/blob/main/comparison_extended.png)
 
 ### Classified/Unclassified connected graphs
+This results are obtained using Random Forest, because of lack of computing power I couldnt produce a full classification using the GCN network.
 
 __connected group before classification__
 
