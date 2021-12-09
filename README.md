@@ -1,12 +1,11 @@
 # GCN_detect_bitcoin_money_laundering
 This project attempts the use new techniques in the field of AML applied to the bitcoin blockchain.
 ## file list 
-1. 1_main_transaction_tracker.ipynb, main reimplementation of the paper. LogReg, RandomForest, DenseNetworks + the implementation and test of the tracker algorithm. 
-2. 1_main_transaction_tracker_distributedTrain.ipynb, same exact code but using a distributed set rather than a time_step based split. 
-3. 2_GCN_elliptic.ipynb, implementation of a GCN network in keras and subsequent evaluation
-4. 3_GAT_elliptic.ipynb implementation of a GAT network in keras and subsequent evaluation
-5.  1_transaction_tracker_extended.ipynb, extended classification with multiple classifiers to test the Random Forest is the best hypotesis
-
+- 1_main_transaction_tracker.ipynb, main reimplementation of the paper. LogReg, RandomForest, DenseNetworks + the implementation and test of the tracker algorithm. 
+- 1_transaction_tracker_extended.ipynb, extended classification with multiple classifiers to test the Random Forest is the best hypotesis
+- 1_main_transaction_tracker_distributedTrain.ipynb, same exact code but using a distributed set rather than a time_step based split. 
+- 2_GCN_elliptic.ipynb, implementation of a GCN network in keras and subsequent evaluation
+- 3_GAT_elliptic.ipynb implementation of a GAT network in keras and subsequent evaluation
 
 ## Discussion points 
 
@@ -46,12 +45,12 @@ But on another note, is Random Forest really THAT GOOD? lets test this claim by 
 
 -----------------------------------------------------------------------------------
 
-In this project we have the following goals:
+__In this project we have the following goals:__
 
 1. Achieve higher meaning representation of the transactions of the Elliptic blockchain dataset. Produce a transaction tracker that creates graphs making it possible to inspect viasually the performance of the classifier 
 2. Reproduce the techniques proposed in the paper hoping to achieve comparable results. 
 3. Work on some new state of the art convoluted networks and compare it to the original 
-4. Attempt the making of an attention layer in the GCN (GAT) and compare the results with the original paper. 
+4. Make a novel custom GAT architecture and compare the results with the original paper. 
 
 __example of unclassified connected group__
 
